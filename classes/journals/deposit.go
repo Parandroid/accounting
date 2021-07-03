@@ -36,6 +36,6 @@ func (dep *Deposit) Post() (debit, credit *classes.Posting) {
 }
 
 func (dep *Deposit) String() string {
-	s := fmt.Sprintf("id:%d account:%d amount:%s currency:%s", dep.id, dep.account.Id(), dep.amount.String(), dep.currency)
+	s := fmt.Sprintf("id:%d account!:%d amount:%s currency:%s", dep.id, dep.account.Id(), dep.amount.String(), dep.currency)
 	return s
 }
