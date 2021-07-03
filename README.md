@@ -1,0 +1,1 @@
+# Basic double-entry accounting
